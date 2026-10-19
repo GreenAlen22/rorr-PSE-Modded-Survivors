@@ -70,3 +70,6 @@ The window covers 65-85% of the charge. With Skills++, each level of the primary
 ## Contacts
 My discord: greenalen22  
 If a survivor from this list does not get its changes, please report it to discord.
+
+## Special thanks
+Thanks to the authors of the survivor mods this addon builds on, and to Klehrik, ReturnsAPI, RandomCatDude and the rest of the ror returns mod developers who helped us understand how modding works.
