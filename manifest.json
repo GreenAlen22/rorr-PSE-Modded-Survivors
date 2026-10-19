@@ -1,0 +1,11 @@
+{
+	"name": "PSEModdedSurvivors",
+	"version_number": "0.1.0",
+	"website_url": "https://github.com/GreenAlen22/rorr-PSE-Modded-Survivors/wiki",
+	"description": "PSE: Modded Survivors - an addon for Primary Skill Evolution: primary attacks of survivors from other mods get its magazine, reload and aim, or stamina and finisher.",
+	"dependencies": [
+		"LuaENVY-ENVY-1.2.1",
+		"ReturnsAPI-ReturnsAPI-0.1.59",
+		"GreenAlen22-PrimarySkillEvolution-0.3.0"
+	]
+}
