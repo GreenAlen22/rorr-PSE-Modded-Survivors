@@ -23,8 +23,17 @@ Magazine, active reload with Perfect Reload, and shots toward the cursor.
 | Nautilus | Lose Humanity | primary | 5 | 1.3 s | ±30° |
 | Scavenger | Lose Humanity | primary | 4 | 1.6 s | ±20° |
 | Captain | Captain Returns | Vulcan Shotgun | 3 volleys | 1.6 s | ±20° |
+| Admiral | Worlds Incursion | Heavy Pistol | 5 | 1.6 s | ±35° |
+| Admiral | Worlds Incursion | Stun Pistol | 5 | 1.4 s | ±35° |
+| H.3.L.P.3.R. | Worlds Incursion | DUSTER FLAK-GUN | 5 | 1.6 s | ±20° |
+| H.3.L.P.3.R. | Worlds Incursion | WRANGLER REBAR-CANNON | 4 | 1.7 s | no aim |
+| HAN-D | Worlds Incursion | ASSUALT | 3 volleys | 1.5 s | ±25° |
 
-Perfect Reload heals only where the shot is a bullet the game can tell apart: Executioner, Reclaimer, Greater and Archaic Wisp, Captain. Projectiles - syringes, bubbles, beams, the wrench - and the other monsters' shots give the attack speed alone.
+Worlds Incursion's own Reclaimer gets the same numbers as the Reclaimer mod's.
+
+Perfect Reload heals only where the shot is a bullet the game can tell apart: Executioner, Reclaimer, Greater and Archaic Wisp, Captain, Admiral, H.3.L.P.3.R.'s flak gun and HAN-D's ASSUALT. Projectiles (syringes, bubbles, beams, the wrench, the rebar rocket) and the other monsters' shots give the attack speed alone.
+
+New primaries Worlds Incursion gives vanilla survivors: HAN-D with ASSUALT is a gunner from the table above instead of a melee survivor. Bandit's Scatter, Enforcer's Trenchboom and Engineer's Blastgun keep their own stock and recharge and only shoot toward the cursor, ±20°, ±25° and ±20°.
 
 ---
 ## Melee
@@ -48,8 +57,9 @@ Stamina, finisher and Rage, series, lunge and launcher. Of the survivor's own sk
 | Macrobic Predator | Lose Humanity | primary | 3 |
 | Tardigrade | Lose Humanity | primary | 2 |
 | MULE | Starstorm Returns | Interference Removal | 8 |
+| Warrior | Worlds Incursion | HERO SLASH | 6 |
 
-Elder Lemurian: one press is one strike, however many blows it deals.
+Elder Lemurian: one press is one strike, however many blows it deals. Warrior's swings don't speed up with attack speed, so Rage's +20% attack speed does nothing for Warrior.
 
 ---
 ## Charge window

@@ -1,4 +1,4 @@
--- Консольные команды аддона: состояние загрузки и временный замер хуков.
+-- Консольные команды аддона: состояние загрузки, открытие поддержанных выживших для прогона и временный замер хуков.
 
 PSEM = PSEM or {}
 
@@ -215,6 +215,59 @@ Console.new{
         arm(true)
 
         say(string.format("measuring %d s: %s, primary %s - attack with the primary now", seconds, probe.hero, probe.primary))
+    end
+}
+
+local function unlock(id, opened)
+    if id == nil or id < 0 or opened[id] then return end
+    opened[id] = true
+    local achievement = Achievement.wrap(id)
+    unlock(achievement.parent_id, opened)
+    if not Util.bool(achievement:is_unlocked()) then
+        gm.achievement_add_progress(id, achievement.progress_needed, true)
+        say("unlocked "..achievement.namespace.."-"..achievement.identifier)
+    end
+end
+
+Console.new{
+    "psems_unlock",
+    {
+        "Opens the survivors and primaries this mod supports from one package, in this save. Offline only.",
+        "psems_unlock <package>, as psems_status prints it",
+    },
+    function(args)
+        local package = args[1]
+        if not package then
+            say("name the package, as psems_status prints it")
+            return
+        end
+        if Net.online then
+            say("offline only: online the game would tell the other players of each unlock")
+            return
+        end
+
+        local skills = {}
+        for _, fact in ipairs(PSEM.Roster.ATTACKS) do
+            if fact.package == package then
+                local skill = Skill.find(fact.skill[1], fact.skill[2])
+                if skill then skills[skill.value] = true end
+            end
+        end
+        if next(skills) == nil then
+            say("no primary of "..package.." found - not installed, or not made yet")
+            return
+        end
+
+        local opened = {}
+        for _, survivor in ipairs(Survivor.find_all()) do
+            for _, skill in ipairs(survivor:get_skills(Skill.Slot.PRIMARY)) do
+                if skills[skill.value] then unlock(survivor.achievement_id, opened) end
+            end
+        end
+        for _, unlockable in ipairs(Global.survivor_loadout_unlockables) do
+            if skills[unlockable.skill_id] then unlock(unlockable.achievement_id, opened) end
+        end
+        say("done - pick them in the character select")
     end
 }
 

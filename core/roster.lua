@@ -116,6 +116,51 @@ R.ATTACKS = {
     { key = "TardigradeZ", package = "Neorit-LoseHumanity", kind = "melee",
       skill = { "TardigradeZ", "Neorit" }, states = { { "monsterTardigradeZ", "ror" } },
       strike = "attack", host = true, sparks = "sSparks7", late = true },
+
+    { key = "AdmiralZ", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "AdmiralZ", "Worlds Collide" }, states = { { "admiralPrimary", "Worlds Collide" } },
+      tracers = { "BANDIT1" } },
+    { key = "admiralZ2", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "admiralZ2", "Worlds Collide" }, states = { { "admiralPrimary2", "Worlds Collide" } },
+      tracers = { "COMMANDO2" } },
+
+    { key = "helperZ", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "helperZ", "Worlds Collide" }, states = { { "helperPrimary", "Worlds Collide" } },
+      tracers = { "COMMANDO1" }, shot = "enter", aim = "host" },
+
+    { key = "helperZ2", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "helperZ2", "Worlds Collide" }, states = { { "helperPrimary2", "Worlds Collide" } },
+      shot = "enter", aim = "none" },
+
+    { key = "worldsReclaimerZ", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "reclaimerZ", "Worlds Collide" }, states = { { "ReclaimerPrimary", "Worlds Collide" } },
+      tracers = { "SNIPER2" } },
+    { key = "worldsReclaimerZ2", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "reclaimerZ2", "Worlds Collide" }, states = { { "ReclaimerPrimary2", "Worlds Collide" } },
+      tracers = { "COMMANDO1" } },
+    { key = "worldsReclaimerZ3", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "reclaimerZ3", "Worlds Collide" }, states = { { "ReclaimerPrimary3", "Worlds Collide" } },
+      tracers = { "SNIPER1" }, shot = "enter", aim = "host" },
+
+    { key = "Blast", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "Blast", "Worlds Collide" }, states = { { "Blast", "Worlds Collide" } },
+      tracers = { "BANDIT1" }, shot = "enter", aim = "host" },
+    { key = "Slug", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "Slug", "Worlds Collide" }, states = { { "Slug", "Worlds Collide" } },
+      tracers = { "BANDIT3", "PILOT_PRIMARY_STRONG", "BANDIT1" } },
+    { key = "Shotty", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "Shotty", "Worlds Collide" }, states = { { "Shotty", "Worlds Collide" } },
+      tracers = { "BANDIT1" }, shot = "enter", aim = "host" },
+
+    { key = "Bang", package = "GIC-Worlds_Incursion", kind = "gunner",
+      skill = { "Bang", "Worlds Collide" }, states = { { "Bang", "Worlds Collide" } },
+      tracers = { "SNIPER2" } },
+
+    { key = "BitwarriorZ", package = "GIC-Worlds_Incursion", kind = "melee",
+      skill = { "BitwarriorZ", "Worlds Collide" },
+      states = { { "bitwarriorPrimary", "Worlds Collide" }, { "bitwarriorSwing2", "Worlds Collide" },
+                 { "bitwarriorSwing3", "Worlds Collide" } },
+      sparks = "sSparks2" },
 }
 
 PSEM.Roster = R

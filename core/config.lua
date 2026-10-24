@@ -21,6 +21,18 @@ PSEM.Config = {
         NautilusZ      = { magazine = 5,  reload = 1.3, cone = 30 },
         ScavengerZ     = { magazine = 4,  reload = 1.6, cone = 20 },
         captainZ       = { magazine = 3,  reload = 1.6, cone = 20 },
+
+        AdmiralZ          = { magazine = 5,  reload = 1.6, cone = 35 },
+        admiralZ2         = { magazine = 5,  reload = 1.4, cone = 35 },
+        helperZ           = { magazine = 5,  reload = 1.6, cone = 20 },
+        helperZ2          = { magazine = 4,  reload = 1.7 },
+        worldsReclaimerZ  = { magazine = 4,  reload = 1.6, cone = 25 },
+        worldsReclaimerZ2 = { magazine = 11, reload = 1.3, cone = 30 },
+        worldsReclaimerZ3 = { magazine = 5,  reload = 1.7, cone = 20 },
+        Bang              = { magazine = 3,  reload = 1.5, cone = 25 },
+        Blast             = { cone = 20 },
+        Slug              = { cone = 25 },
+        Shotty            = { cone = 20 },
     },
 
     hunter_charged = 4,
@@ -42,6 +54,7 @@ PSEM.Config = {
         MacrobicPredatorZ  = 3,
         TardigradeZ        = 2,
         muleZ              = 8,
+        BitwarriorZ        = 6,
     },
 
     finisher = {
