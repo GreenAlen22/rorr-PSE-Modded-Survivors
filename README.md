@@ -4,6 +4,22 @@ Install it next to Primary Skill Evolution and any of the survivor mods below. O
 How each mechanic works - magazine, active reload, mouse aim, stamina, finisher, series, lunge, launcher - is in the [Primary Skill Evolution wiki](https://github.com/GreenAlen22/rorr-PrimarySkillEvolution/wiki). The numbers for every survivor here are in the [addon wiki](https://github.com/GreenAlen22/rorr-PSE-Modded-Survivors/wiki).
 
 ---
+## Survivor mods
+- [Captain Returns](https://thunderstore.io/c/risk-of-rain-returns/p/CoolLoaders_Inc/CaptainReturns/) by CoolLoaders_Inc
+- [Fishmonger](https://thunderstore.io/c/risk-of-rain-returns/p/SmoothSpatula/Fishmonger/) by SmoothSpatula
+- [Gigachad](https://thunderstore.io/c/risk-of-rain-returns/p/GreenAlen22/Gigachad/) by GreenAlen22
+- [Gin](https://thunderstore.io/c/risk-of-rain-returns/p/cginc/GinMod/) by cginc
+- [Hunter](https://thunderstore.io/c/risk-of-rain-returns/p/ANXvariable/Hunter/) by ANXvariable
+- [Lose Humanity](https://thunderstore.io/c/risk-of-rain-returns/p/Neorit/LoseHumanity/) by Neorit
+- [Reclaimer](https://thunderstore.io/c/risk-of-rain-returns/p/GIC/Reclaimer/) by GIC
+- [Revenant](https://thunderstore.io/c/risk-of-rain-returns/p/LostGearProductions/Revenant/) by LostGearProductions
+- [Risk of Rex Returns](https://thunderstore.io/c/risk-of-rain-returns/p/syntaxevasion/RiskOfRexReturns/) by syntaxevasion
+- [RMT Jam](https://thunderstore.io/c/risk-of-rain-returns/p/RoRRModdingToolkit/Jam/) by RoRRModdingToolkit
+- [Starstorm Returns](https://thunderstore.io/c/risk-of-rain-returns/p/RobomandosLab/StarstormReturns/) by RobomandosLab
+- [Worlds Incursion](https://thunderstore.io/c/risk-of-rain-returns/p/GIC/Worlds_Incursion/) by GIC
+- [Zerimp](https://thunderstore.io/c/risk-of-rain-returns/p/ANXvariable/Zerimp_Returns/) by ANXvariable
+
+---
 ## Gunners
 Magazine, active reload with Perfect Reload, and shots toward the cursor.
 
